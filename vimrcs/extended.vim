@@ -8,6 +8,10 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => GUI related
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+set background=dark
+
+" colorscheme peaksea
+
 " Set font according to system
 if has("mac") || has("macunix")
     set gfn=Source\ Code\ Pro:h15,Menlo:h15
