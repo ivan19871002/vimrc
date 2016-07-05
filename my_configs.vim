@@ -30,7 +30,7 @@ map <F6> :NERDTreeToggle<CR>
 
 " About the GUI
 " set t_Co=256
-colorscheme peaksea
+colorscheme desert
 
 nmap <F7> :colorscheme desert<CR>
 nmap <F8> :colorscheme peaksea<CR>
