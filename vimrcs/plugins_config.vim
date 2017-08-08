@@ -8,8 +8,10 @@
 """"""""""""""""""""""""""""""
 " => Load pathogen paths
 """"""""""""""""""""""""""""""
-call pathogen#infect('~/.vim_runtime/sources_forked/{}')
-call pathogen#infect('~/.vim_runtime/sources_non_forked/{}')
+let s:vim_runtime = expand('<sfile>:p:h')."/.."
+call pathogen#infect(s:vim_runtime.'/sources_forked/{}')
+call pathogen#infect(s:vim_runtime.'/sources_non_forked/{}')
+call pathogen#infect(s:vim_runtime.'/my_plugins/{}')
 call pathogen#helptags()
 
 """"""""""""""""""""""""""""""
@@ -33,7 +35,7 @@ map <leader>f :MRU<CR>
 " => YankStack
 """"""""""""""""""""""""""""""
 nmap <c-p> <Plug>yankstack_substitute_older_paste
-nmap <c-P> <Plug>yankstack_substitute_newer_paste
+nmap <c-n> <Plug>yankstack_substitute_newer_paste
 
 
 """"""""""""""""""""""""""""""
