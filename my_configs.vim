@@ -8,7 +8,7 @@ au FileType python map <buffer> <f5> :w<cr>:!python %<cr>
 au FileType python set omnifunc=jedi#completions
 
 set tabstop=4
-set expandtab
+set noexpandtab
 set shiftwidth=4
 
 " Supertab
