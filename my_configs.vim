@@ -18,7 +18,7 @@ let g:SuperTabContextDefaultCompletionType = "<c-n>"
 " Python Dictionary
 let g:pydiction_location = "/usr/share/vim/vim74/ftplugin/python.vim"
 
-set number
+" set number
 " set nowrap
 set showcmd
 
