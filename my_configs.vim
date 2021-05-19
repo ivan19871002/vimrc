@@ -43,3 +43,4 @@ set list
 
 nmap <F10> :set list<CR>
 nmap <F9> :set nolist<CR>
+let g:snipMate = { 'snippet_version' : 1 }
